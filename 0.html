@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet/less" type="text/css" href="./theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" type="text/css" href="./theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/font-awesome.min.css">
+
+    <link href="./static/custom.css" rel="stylesheet">
+
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333">
+
+<meta name="author" content="Oliver Urs Lenz" />
+<meta name="description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. Hatcher …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width" />
+<meta name="keywords" content="">
+
+<meta property="og:site_name" content="Diaphonies"/>
+<meta property="og:title" content="Traditional homology is a special case of reduced homology"/>
+<meta property="og:description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. Hatcher …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./0"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2017-08-08 00:00:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="./author/oliver-urs-lenz.html">
+<meta property="article:section" content="posts"/>
+<meta property="og:image" content="">
+
+
+  <title>Diaphonies &ndash; Traditional homology is a special case of reduced homology</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href=".">
+      </a>
+      <h1><a href=".">Diaphonies</a></h1>
+      <p></p>
+
+
+      <nav>
+        <ul class="list">
+          <li><a  href="./archive">archive</a></li>
+          <li><a  href="./about">About</a></li>
+
+          <li><a href="http://twitter.com/diaphonies_" target="_blank">Twitter</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </aside>
+  <main>
+<article class="single">
+  <div class="neighbors">
+  </div>
+  <header>
+    <h1 id="0">Traditional homology is a special case of reduced homology</h1>
+    <p>
+          Posted on 8 August 2017
+
+
+    </p>
+  </header>
+
+  <div>
+    <div class="math">$$
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\mb}[1]{\mathbb{#1}}
+\newcommand{\mf}[1]{\mathfrak{#1}}
+\newcommand{\fn}[1]{\footnote{#1}}
+\newcommand{\sbeq}{\subseteq}
+\newcommand{\lra}{\longrightarrow}
+\DeclareMathOperator{\Cont}{Cont}
+$$</div>
+<h2>Is this new mathematics?</h2>
+<p>No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. <span style="font-variant:small-caps;">Hatcher 2002</span>.</p>
+<h2>What mathematical presentation?</h2>
+<p>It is standard practice to define &lsquo;reduced&rsquo; homology after and on the basis of &lsquo;traditional&rsquo; homology. But reduced homology is actually more fundamental, while traditional homology can be seen as secondary. Accordingly, I prefer to write <span class="math">\(H_i(X)\)</span> for the <span class="math">\(i\)</span><sup>th</sup> reduced homology group, and <span class="math">\(H_i(X)_{\emptyset}\)</span> for the <span class="math">\(i\)</span><sup>th</sup> traditional homology group of a topological space <span class="math">\(X\)</span>.</p>
+<h2>Traditional and reduced homology are almost identical.</h2>
+<p>Yes, for any non-empty space <span class="math">\(X\)</span>, the difference between traditional and reduced homology boils down to <span class="math">\(H_0(X)_{\emptyset} \simeq H_0(X) \times \mb{Z}\)</span>, so there&rsquo;s not that much at stake here.</p>
+<h2>What kind of homology are we talking about?</h2>
+<p>Singular homology. (The arguments for cohomology are analogous.)</p>
+<h2>In what way is reduced homology more fundamental?</h2>
+<p>Reduced homology has a more parsimonious interpretation, it has a more natural definition, and traditional homology can in turn be elegantly defined in terms of reduced homology.</p>
+<h2>A more parsimonious interpretation?</h2>
+<p>Reduced homology is a better measure of the number of 1-dimensional holes in a space.</p>
+<h2>The 0<sup>th</sup> traditional Betti number encodes the number of connected components of a space. So the 0<sup>th</sup> reduced Betti number encodes &ldquo;the number of connected components minus 1&rdquo;. How is that more parsimonious?</h2>
+<p>Isn&rsquo;t it unfortunate that with traditional homology, a contractible space, in particular a point &mdash; a simple space with no holes whatsoever &mdash; nonetheless has non-trivial homology in degree <span class="math">\(0\)</span>? Isn&rsquo;t it strange that whereas the <span class="math">\(n\)</span><sup>th</sup> Betti number generally represents the number of <span class="math">\(n+1\)</span>-dimensional &lsquo;holes&rsquo; in a structure, for <span class="math">\(n = 0\)</span>, it should be the number of connected components? With reduced homology, contractible spaces have trivial homology and the 0<sup>th</sup> Betti number actually encodes the number of 1-dimensional holes: the number of &lsquo;gaps&rsquo; between components.</p>
+<h2>How do you define the number of &lsquo;gaps&rsquo; between components? If a topological space <span class="math">\(X\)</span> has <span class="math">\(k\)</span> components, isn&rsquo;t every pair of components separated by a gap, for a total of <span class="math">\(k!/2\)</span> gaps if <span class="math">\(k \geq 2\)</span>? Whereas the 0<sup>th</sup> reduced Betty number is <span class="math">\(k - 1\)</span>?</h2>
+<p>For 1-dimensional holes, we need a 1-dimensional perspective. This we get by projecting the topological space onto a line, in which case we find exactly <span class="math">\(k-1\)</span> gaps between its components.</p>
+<h2>How can reduced homology be more fundamental if it assigns trivial homology both to contractible spaces and to the empty space?</h2>
+<p>The reduced homology of the empty space isn&rsquo;t generally discussed. But if you follow the definition, you find that its <span class="math">\(-1\)</span><sup>st</sup> reduced homology group is <span class="math">\(\mb{Z}\)</span>.</p>
+<h2>That just sounds wrong.</h2>
+<p>It is exactly what we want if homology encodes holes. The empty space has a hole of a unique, 0-dimensional kind: it is empty. In general, the prototypical space with a single <span class="math">\(n+1\)</span>-dimensional hole is the <span class="math">\(n\)</span>-sphere. The empty space is the <span class="math">\(-1\)</span>-sphere (Definition 1) and it has the reduced homology of a sphere (Figure 1).</p>
+<blockquote>
+<p><strong>Definition 1:</strong> Let <span class="math">\(n \geq -1\)</span> and let <span class="math">\(\left\|-\right\|\)</span> be the euclidean norm on <span class="math">\(\mathbb{R}^{n+1}\)</span>. The <em><span class="math">\(n\)</span>-sphere</em> is the topological subspace <span class="math">\(S^n = \{a \in \mathbb{R}^{n+1} | \left\|a\right\| = 1\}\)</span>. The <em><span class="math">\(n+1\)</span>-disk</em> is the topological subspace <span class="math">\(D_{n+1} = \{a \in \mathbb{R}^{n+1} | \left\|a\right\| \leq 1\}\)</span>.</p>
+</blockquote>
+<div class="math">\begin{array} {lccccccc}
+                &amp; H_{-1}    &amp; H_0           &amp; H_1       &amp; H_2       &amp; H_3       &amp; H_4       &amp; \dots\\
+S^{-1}  &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
+S^0         &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
+S^1         &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
+S^2         &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0         &amp; \dots\\
+S^3         &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0         &amp; \dots\\
+S^4         &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; \dots\\
+\dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots
+\end{array}</div>
+<p>
+<center><strong>Figure 1:</strong> The groups <span class="math">\(H_i(S^n)\)</span></center></p>
+<h2>Is defining this empty <span class="math">\(-1\)</span>-sphere in any way useful?</h2>
+<p>This is a bit tangential, but there exists an elegant proof that establishes the homology groups of the <span class="math">\(n\)</span>-sphere through induction on <span class="math">\(n\)</span>, starting at <span class="math">\(n = -1\)</span>. In other words, we can derive the homology of the spheres from the homology of the empty space. Without providing full details, the proof, as covered in <span style="font-variant:small-caps;">Hatcher 2002</span>, hinges on the following theorem:</p>
+<blockquote>
+<p><strong>Theorem 1:</strong> For any topological space <span class="math">\(X\)</span>, and any two subspaces <span class="math">\(A, B \sbeq X\)</span> such that <span class="math">\(A \cup B = X\)</span>, there exists a short exact sequence
+<div class="math">$$0 \lra A \cap B \lra A \oplus B \lra X \lra 0$$</div>
+</p>
+</blockquote>
+<p>It is possible to apply this to <span class="math">\(X = S^n\)</span>, for any <span class="math">\(n \geq 0\)</span>, by taking <span class="math">\(A\)</span> and <span class="math">\(B\)</span> to be two overlapping hemispheres of <span class="math">\(X\)</span> homeomorphic to the disk <span class="math">\(D_n\)</span>, such that <span class="math">\(A \cap B\)</span> is homeomorphic to <span class="math">\(S^{n-1}\)</span>:</p>
+<div class="math">$$0 \lra S^{n-1} \lra D_{n} \oplus D_{n} \lra S^n \lra 0$$</div>
+<p>The Meyer-Vietoris theorem applied to this short exact sequence gives us a long exact sequence of homology groups. Because disks are contractible, the terms <span class="math">\(H_i(D_n \oplus D_n)\)</span> are all trivial, hence <span class="math">\(H_{i+1}(S^{n+1})\)</span> and <span class="math">\(H_{i}(S^{n})\)</span> are isomorphic for all <span class="math">\(i\)</span> and all <span class="math">\(n \geq -1\)</span>. We can thus derive any homology group of any sphere through induction from the homology groups of <span class="math">\(S^{-1}\)</span>, the empty space: for any <span class="math">\(n \geq -1\)</span>, all homology groups of <span class="math">\(S^n\)</span> are trivial, except <span class="math">\(H_{n}(S^n)\)</span>, which is isomorphic to <span class="math">\(\mb{Z}\)</span>.</p>
+<p>With traditional homology, this derivation is arguably less elegant because then induction cannot start with the empty space and the term <span class="math">\(H_0(D_n \oplus D_n)\)</span> is non-trivial.</p>
+<h2>You said that reduced homology has a more elegant definition than traditional homology. How is this possible given that reduced singular homology is usually defined by taking the singular chain complex of a space <span class="math">\(X\)</span>, from the definition of traditional homology, and extending it with a special map <span class="math">\(\epsilon: C_0(X) \lra \mb{Z}\)</span>.</h2>
+<p>That construction is unnecessarily complicated. There is a more natural definition of reduced homology, and of <span class="math">\(\epsilon\)</span> in particular. We obtain <span class="math">\(\epsilon\)</span> automatically <em>as part of the chain complex</em> if we remove an arbitrary restriction from the definition of traditional singular homology. Just watch the definitions unfold:</p>
+<blockquote>
+<p><strong>Definition 2:</strong> For any <span class="math">\(n \geq -1\)</span>, the <em>standard <span class="math">\(n\)</span>-simplex <span class="math">\(\Delta_n\)</span></em> is the <span class="math">\(n\)</span>-simplex spanned by the standard basis <span class="math">\((e_0,e_1,\dots,e_n)\)</span> of <span class="math">\(\mathbb{R}^{n+1}\)</span>, i.e. the set
+<div class="math">$$\left\{(w_0,w_1,\dots,w_n) \in \mathbb{R}^{n+1} \Bigg| \sum_{0 \leq i \leq n}w_i = 1, w_0,w_1,\dots,w_n \geq 0\right\}.$$</div>
+A <em>singular <span class="math">\(n\)</span>-simplex</em> <span class="math">\(\sigma\)</span> in a topological space <span class="math">\(X\)</span> is a continuous map <span class="math">\(\Delta_n \longrightarrow X\)</span>. For any <span class="math">\(n \geq i \geq -1\)</span>, let <span class="math">\(\iota_i: \Delta_n \lra \Delta_{n+1}\)</span> be the linear map which sends any <span class="math">\(e_j\)</span> to <span class="math">\(e_j\)</span> if <span class="math">\(j \leq i\)</span> and to <span class="math">\(e_{j+1}\)</span> if <span class="math">\(j &lt; i\)</span>.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p><strong>Definition 3:</strong> Define <span class="math">\(C: \mf{Top} \lra \mf{Ch_{\bullet}(Ab)}\)</span> by letting <span class="math">\(C_n: \mathfrak{Top} \lra \mathfrak{Ab}\)</span> be the composition of the functor <span class="math">\(\Cont(\Delta^n,-): \mf{Top} \lra \mf{Set}\)</span> which sends a topological space <span class="math">\(X\)</span> to the set of all singular <span class="math">\(n\)</span>-simplices in <span class="math">\(X\)</span> and the free functor <span class="math">\(\mf{Set} \lra \mf{Ab}\)</span>, and by having <span class="math">\(d_n: C_n(X) \lra C_{n-1}(X)\)</span> send any generating <span class="math">\(n\)</span>-simplex <span class="math">\(\sigma\)</span> of <span class="math">\(C_n(X)\)</span> to <span class="math">\(\sum (-1)^{i} \sigma \circ \iota_i\)</span>,  for every <span class="math">\(n \in \mathbb{Z}\)</span>.
+Then for every <span class="math">\(n \in \mb{Z}\)</span>, the <span class="math">\(n\)</span><sup>th</sup> homology functor
+<div class="math">$$H_n: \mf{Top} \lra \mf{Ab}$$</div>
+is the composition of <span class="math">\(C\)</span> with the homology functor <span class="math">\(H_n: \mf{Ch_{\bullet}(Ab)} \lra \mf{Ab}\)</span>.</p>
+</blockquote>
+<h2>Isn&rsquo;t this just the definition of traditional singular homology?</h2>
+<p>If we wanted to obtain traditional homology, we would have to restrict <span class="math">\(n \geq 0\)</span> in Definition 2. But there is no intrinsic reason for this restriction, as the case <span class="math">\(n = -1\)</span> is still well-defined: <span class="math">\(\Delta^{-1} = \emptyset\)</span>, therefore <span class="math">\(\Cont(\Delta^{-1},X)\)</span> is a singleton for any space <span class="math">\(X\)</span>, and consequently, <span class="math">\(C_{-1}(X) \simeq \mb{Z}\)</span> and <span class="math">\(d_0 = \epsilon\)</span> maps every <span class="math">\(0\)</span>-simplex in <span class="math">\(C_{0}(X)\)</span> onto the unique <span class="math">\(-1\)</span>-simplex generating <span class="math">\(C_{-1}(X)\)</span>. In contrast, the restriction <span class="math">\(n \geq -1\)</span> is really necessary, because  <span class="math">\(\mathbb{R}^{n+1}\)</span> is not defined for <span class="math">\(n &lt; -1\)</span>.</p>
+<p>Also, note in particular that since <span class="math">\(C_0(\emptyset) = 0\)</span>, we get <span class="math">\(H_0(\emptyset) \simeq \mb{Z}\)</span>.</p>
+<h2>Defining homology in degree <span class="math">\(-1\)</span> looks everything but natural.</h2>
+<p>That is an esthetic argument, purely due to the choice of index. The standard <span class="math">\(n\)</span>-simplex is defined as a subset of <span class="math">\(\mb{R}^{n+1}\)</span>, and so might just as well have been called the <span class="math">\(n+1\)</span>-simplex. In essence, <span class="math">\(n = -1\)</span> is the true &lsquo;zero-case&rsquo; of (co)homology.</p>
+<h2>Do we really want to postulate an empty <span class="math">\(-1\)</span>-simplex?</h2>
+<p>Besides being a building block in the definition of reduced homology, the <span class="math">\(-1\)</span>-simplex is useful in other ways. It allows one to observe that every subset of vertices of a simplex spans a subsimplex (a face), and that, in a simplicial complex, the intersection of any two simplices is a face of both. More generally, the number of <span class="math">\(i\)</span>-faces of an <span class="math">\(n\)</span>-simplex is <span class="math">\(\binom{i+1}{n+1}\)</span>, but the resulting Pascal&rsquo;s Triangle is not complete without the unique <span class="math">\(-1\)</span>-dimensional face (Figure 2).</p>
+<div class="math">\begin{array} {lcccccc}
+                        &amp; i=-1              &amp; i=0               &amp; i=1           &amp;i=2                &amp; i=3           &amp; i=4       &amp; \dots\\
+n=-1    &amp; 1                     &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
+n=0         &amp; 1                     &amp; 1                 &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
+n\simeq1        &amp; 1                     &amp; 2                 &amp; 1                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
+n\simeq2        &amp; 1                     &amp; 3                 &amp; 3                 &amp; 1                 &amp; 0                 &amp; 0         &amp; \dots\\
+n\simeq3        &amp; 1                     &amp; 4                 &amp; 6                 &amp; 4                 &amp; 1                 &amp; 0         &amp; \dots\\
+n\simeq4        &amp; 1                     &amp; 5                 &amp; 10                &amp; 10                &amp; 5                 &amp; 1         &amp; \dots\\
+\dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots
+\end{array}</div>
+<p>
+<center><strong>Figure 2:</strong> The number of <span class="math">\(i\)</span>-faces of an <span class="math">\(n\)</span>-simplex</center></p>
+<h2>So how precisely is traditional homology a special case of reduced homology?</h2>
+<p>It is possible to give at least two equivalent definitions. First, traditional homology can be subsumed under the more general concept of <em>relative homology</em> (Definition 4).</p>
+<blockquote>
+<p><strong>Definition 4:</strong> Let <span class="math">\(X\)</span> be a topological space, and <span class="math">\(A \sbeq X\)</span> a subspace. Then for any <span class="math">\(n \in \mb{Z}\)</span>, the <em>relative homology group</em> <span class="math">\(H_n(X,A)\)</span> is the <span class="math">\(n\)</span><sup>th</sup> homology group of the chain complex <span class="math">\(C(X)/C(A)\)</span>.</p>
+</blockquote>
+<p>This definition of relative homology is equally valid for reduced and traditional homology, and this choice does not affect the outcome: <span class="math">\(H_n(X,A)\)</span> and <span class="math">\(H_n(X,A)_{\emptyset}\)</span> are isomorphic for all <span class="math">\(n\)</span>. Moreover, both reduced and traditional homology can be derived back from relative homology. For <span class="math">\(x \in X\)</span> any point, <span class="math">\(H_n(X,\{x\})\)</span> is the reduced homology group <span class="math">\(H_n(X)\)</span>, while <span class="math">\(H_n(X,\emptyset)\)</span> is the traditional homology group <span class="math">\(H_n(X)_{\emptyset}\)</span> (hence this choice of notation). In other words, traditional homology is reduced homology relativised to the empty space.</p>
+<h2>One could also define reduced homology as traditional homology relativised to a point.</h2>
+<p>Except that the choice of a point of <span class="math">\(X\)</span> makes this arguably less elegant, and it cannot be done for the empty space.</p>
+<h2>What is the second equivalent definition?</h2>
+<p>The traditional homology of a space <span class="math">\(X\)</span> corresponds to the reduced homology of <span class="math">\(X \sqcup \{z\}\)</span>, where {z} is a singleton.</p>
+<h2>That&rsquo;s not a principled definition, that&rsquo;s a hack.</h2>
+<p>More formally, for any <span class="math">\(n \in \mb{Z}\)</span>, we let <span class="math">\({H_n}_\emptyset\)</span> be the composition <span class="math">\(H_nFI\)</span>, where <span class="math">\(F: \mf{Top}_* \lra \mf{Top}\)</span> is the forgetful functor and <span class="math">\(I\)</span> is its left adjoint which sends <span class="math">\(X\)</span> to <span class="math">\(X \sqcup \{z\}\)</span>. Note that <span class="math">\(I\)</span> preserves coproducts and sends products to smash products, so this gives us a way to relate traditional and reduced homology.</p>
+<h2>If traditional homology is just a derivative of reduced homology, why does it feature in Poincaré Duality? That formula doesn&rsquo;t work if you plug in reduced homology groups.</h2>
+<p>But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2). And since traditional homology is a special case of relative homology, we obtain the traditional Poincaré duality when <span class="math">\(L \simeq M\)</span> and <span class="math">\(K = \emptyset\)</span>.</p>
+<blockquote>
+<p><strong>Theorem 2 (Poincaré):</strong> Let <span class="math">\(M\)</span> be an <span class="math">\(n\)</span>-dimensional oriented manifold and let <span class="math">\(K \sbeq L \sbeq M\)</span> be compact subspaces of <span class="math">\(M\)</span>. Then for every <span class="math">\(i\)</span>,
+<div class="math">$$H_i(M\setminus K, M\setminus L) \simeq H^{n-1}(L,K).$$</div>
+</p>
+</blockquote>
+<h2>What about the Künneth theorem?</h2>
+<p>Here too there exists a more general, relative theorem (Theorem 3) which reduces to the traditional Künneth theorem when <span class="math">\(A = B = \emptyset\)</span>.</p>
+<blockquote>
+<p><strong>Theorem 3 (Künneth):</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
+<div class="math">$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$</div>
+which splits.</p>
+</blockquote>
+<p>There also exists a reduced Künneth theorem, which we obtain when <span class="math">\(A = \{x\}\)</span> and <span class="math">\(B = \{y\}\)</span> (Corrolary 3.1).</p>
+<blockquote>
+<p><strong>Corrolary 3.1:</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two non-empty topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
+<div class="math">$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$</div>
+which splits.</p>
+</blockquote>
+<p>We can also see the traditional Künneth theorem as an implication of this reduced Künneth theorem, given that the traditional homology of <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> corresponds to the reduced homology of <span class="math">\(X \sqcup \{z\}\)</span> and <span class="math">\(Y \sqcup \{z\}\)</span>, and that <span class="math">\((X \sqcup \{z\}) \wedge_z (Y \sqcup \{z\}) \simeq (X \times Y) \sqcup \{z\}\)</span>.</p>
+<h2>The <span class="math">\(i\)</span><sup>th</sup> traditional homology group of the <span class="math">\(n\)</span>-fold torus <span class="math">\(T^n\)</span> is <span class="math">\(\mb{Z}^{\binom{i}{n}}\)</span>. With reduced homology, this pattern breaks down for <span class="math">\(i=0\)</span>. Isn&rsquo;t this an example where traditional homology produces more natural results?</h2>
+<p>That the ranks of the homology groups of a torus are binomial coefficients is a direct combinatorial consequence of repeated application of the Künneth theorem to multiplication of <span class="math">\(S^1\)</span> with itself. One can obtain a similar result with the reduced Künneth Theorem for a whole range of spaces. The reduced equivalent of multiplying <span class="math">\(S^1\)</span> with itself is taking the smash product of <span class="math">\(S^0 \vee_x S^1 \simeq S^1 \sqcup \{z\}\)</span> with itself in <span class="math">\(z\)</span>, producing <span class="math">\(S^0 \vee_x T^n \simeq T^n \sqcup \{z\}\)</span>. But one can also take the smash product in other points to obtain different spaces with the same homology. A consistent choice for <span class="math">\(x\)</span> produces the wedge sum <span class="math">\(\bigvee_{i}\bigvee_{\binom{i}{n}}S^i\)</span>. Alternating choices for <span class="math">\(z\)</span> and <span class="math">\(x\)</span> produce various halfway structures, all with homology groups whose ranks correspond to binomial coefficients.</p>
+<h2>References</h2>
+<p><span style="font-variant:small-caps;">Hatcher, Allen Edward, 2002.</span> <a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html">Algebraic Topology.</a></p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js','autobold.js','AMScd.js','xypic.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+  </div>
+
+
+  <div class="neighbors">
+  </div>
+
+</article>
+
+    <footer>
+<p>
+  &copy;  2017.     Powered by <a href="http://getpelican.com" target="_blank">Pelican</a>, with a modified version of the <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Diaphonies ",
+  "url" : ".",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
