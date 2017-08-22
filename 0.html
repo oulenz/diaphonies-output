@@ -29,12 +29,12 @@
     <meta name="msapplication-TileColor" content="#333">
 
 <meta name="author" content="Oliver Urs Lenz" />
-<meta name="description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. Hatcher …" />
+<meta name="description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} \DeclareMathOperator{\Tor}{Tor} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by …" />
 <meta name="keywords" content="">
 
 <meta property="og:site_name" content="Diaphonies"/>
 <meta property="og:title" content="Traditional homology is a special case of reduced homology"/>
-<meta property="og:description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. Hatcher …"/>
+<meta property="og:description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} \DeclareMathOperator{\Tor}{Tor} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by …"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="http://diaphonies.com/0"/>
 <meta property="og:type" content="article"/>
@@ -90,6 +90,7 @@
 \newcommand{\sbeq}{\subseteq}
 \newcommand{\lra}{\longrightarrow}
 \DeclareMathOperator{\Cont}{Cont}
+\DeclareMathOperator{\Tor}{Tor}
 $$</div>
 <h2>Is this new mathematics?</h2>
 <p>No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. <span style="font-variant:small-caps;">Hatcher 2002</span>.</p>
@@ -184,30 +185,31 @@ n\simeq4        &amp; 1                     &amp; 5                 &amp; 10    
 <h2>That&rsquo;s not a principled definition, that&rsquo;s a hack.</h2>
 <p>More formally, for any <span class="math">\(n \in \mb{Z}\)</span>, we let <span class="math">\({H_n}_\emptyset\)</span> be the composition <span class="math">\(H_nFI\)</span>, where <span class="math">\(F: \mf{Top}_* \lra \mf{Top}\)</span> is the forgetful functor and <span class="math">\(I\)</span> is its left adjoint which sends <span class="math">\(X\)</span> to <span class="math">\(X \sqcup \{z\}\)</span>. Note that <span class="math">\(I\)</span> preserves coproducts and sends products to smash products, so this gives us a way to relate traditional and reduced homology.</p>
 <h2>If traditional homology is just a derivative of reduced homology, why does it feature in Poincaré Duality? That formula doesn&rsquo;t work if you plug in reduced homology groups.</h2>
-<p>But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2). And since traditional homology is a special case of relative homology, we obtain the traditional Poincaré duality when <span class="math">\(L \simeq M\)</span> and <span class="math">\(K = \emptyset\)</span>.</p>
+<p>But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2, see Theorem 8.3 of <span style="font-variant:small-caps;">Bredon 1993</span>). And since traditional homology is a special case of relative homology, we obtain traditional Poincaré duality when <span class="math">\(L \simeq M\)</span> and <span class="math">\(K = \emptyset\)</span>.</p>
 <blockquote>
-<p><strong>Theorem 2 (Poincaré):</strong> Let <span class="math">\(M\)</span> be an <span class="math">\(n\)</span>-dimensional oriented manifold and let <span class="math">\(K \sbeq L \sbeq M\)</span> be compact subspaces of <span class="math">\(M\)</span>. Then for every <span class="math">\(i\)</span>,
-<div class="math">$$H_i(M\setminus K, M\setminus L) \simeq H^{n-1}(L,K).$$</div>
+<p><strong>Theorem 2 (Poincaré&ndash;Alexander&ndash;Lefschetz):</strong> Let <span class="math">\(M\)</span> be an <span class="math">\(n\)</span>-dimensional oriented manifold and let <span class="math">\(K \sbeq L \sbeq M\)</span> be compact subspaces of <span class="math">\(M\)</span>. Then for every <span class="math">\(i\)</span>,
+<div class="math">$$H_i(M\setminus K, M\setminus L) \simeq H^{n-i}(L,K).$$</div>
 </p>
 </blockquote>
 <h2>What about the Künneth theorem?</h2>
-<p>Here too there exists a more general, relative theorem (Theorem 3) which reduces to the traditional Künneth theorem when <span class="math">\(A = B = \emptyset\)</span>.</p>
+<p>Here too there exists a more general, relative theorem (Theorem 3, see p276 of <span style="font-variant:small-caps;">Hatcher 2002</span>) which reduces to the traditional Künneth theorem when <span class="math">\(A = B = \emptyset\)</span>.</p>
 <blockquote>
 <p><strong>Theorem 3 (Künneth):</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
-<div class="math">$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$</div>
+<div class="math">$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i \Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$</div>
 which splits.</p>
 </blockquote>
 <p>There also exists a reduced Künneth theorem, which we obtain when <span class="math">\(A = \{x\}\)</span> and <span class="math">\(B = \{y\}\)</span> (Corrolary 3.1).</p>
 <blockquote>
 <p><strong>Corrolary 3.1:</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two non-empty topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
-<div class="math">$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$</div>
+<div class="math">$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i \Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$</div>
 which splits.</p>
 </blockquote>
 <p>We can also see the traditional Künneth theorem as an implication of this reduced Künneth theorem, given that the traditional homology of <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> corresponds to the reduced homology of <span class="math">\(X \sqcup \{z\}\)</span> and <span class="math">\(Y \sqcup \{z\}\)</span>, and that <span class="math">\((X \sqcup \{z\}) \wedge_z (Y \sqcup \{z\}) \simeq (X \times Y) \sqcup \{z\}\)</span>.</p>
 <h2>The <span class="math">\(i\)</span><sup>th</sup> traditional homology group of the <span class="math">\(n\)</span>-fold torus <span class="math">\(T^n\)</span> is <span class="math">\(\mb{Z}^{\binom{i}{n}}\)</span>. With reduced homology, this pattern breaks down for <span class="math">\(i=0\)</span>. Isn&rsquo;t this an example where traditional homology produces more natural results?</h2>
 <p>That the ranks of the homology groups of a torus are binomial coefficients is a direct combinatorial consequence of repeated application of the Künneth theorem to multiplication of <span class="math">\(S^1\)</span> with itself. One can obtain a similar result with the reduced Künneth Theorem for a whole range of spaces. The reduced equivalent of multiplying <span class="math">\(S^1\)</span> with itself is taking the smash product of <span class="math">\(S^0 \vee_x S^1 \simeq S^1 \sqcup \{z\}\)</span> with itself in <span class="math">\(z\)</span>, producing <span class="math">\(S^0 \vee_x T^n \simeq T^n \sqcup \{z\}\)</span>. But one can also take the smash product in other points to obtain different spaces with the same homology. A consistent choice for <span class="math">\(x\)</span> produces the wedge sum <span class="math">\(\bigvee_{i}\bigvee_{\binom{i}{n}}S^i\)</span>. Alternating choices for <span class="math">\(z\)</span> and <span class="math">\(x\)</span> produce various halfway structures, all with homology groups whose ranks correspond to binomial coefficients.</p>
 <h2>References</h2>
-<p><span style="font-variant:small-caps;">Hatcher, Allen Edward, 2002.</span> <a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html">Algebraic Topology.</a></p>
+<p><span style="font-variant:small-caps;">Bredon, Glen Eugene, 1993.</span> Topology and Geometry. Graduate Texts in Mathematics 139. Springer Verlag, New York.<br>
+<span style="font-variant:small-caps;">Hatcher, Allen Edward, 2002.</span> <a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html">Algebraic Topology.</a></p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",

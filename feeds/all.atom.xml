@@ -7,9 +7,10 @@
 \newcommand{\sbeq}{\subseteq}
 \newcommand{\lra}{\longrightarrow}
 \DeclareMathOperator{\Cont}{Cont}
+\DeclareMathOperator{\Tor}{Tor}
 $$&lt;/div&gt;
 &lt;h2&gt;Is this new mathematics?&lt;/h2&gt;
-&lt;p&gt;No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. &lt;span style="font-variant:small-caps;"&gt;Hatcher …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="math"&gt;$$
+&lt;p&gt;No. Just an argument over mathematical presentation, bringing together individual observations previously made by …&lt;/p&gt;</summary><content type="html">&lt;div class="math"&gt;$$
 \newcommand{\mc}[1]{\mathcal{#1}}
 \newcommand{\mb}[1]{\mathbb{#1}}
 \newcommand{\mf}[1]{\mathfrak{#1}}
@@ -17,6 +18,7 @@ $$&lt;/div&gt;
 \newcommand{\sbeq}{\subseteq}
 \newcommand{\lra}{\longrightarrow}
 \DeclareMathOperator{\Cont}{Cont}
+\DeclareMathOperator{\Tor}{Tor}
 $$&lt;/div&gt;
 &lt;h2&gt;Is this new mathematics?&lt;/h2&gt;
 &lt;p&gt;No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. &lt;span style="font-variant:small-caps;"&gt;Hatcher 2002&lt;/span&gt;.&lt;/p&gt;
@@ -111,30 +113,31 @@ n\simeq4        &amp;amp; 1                     &amp;amp; 5                 &amp
 &lt;h2&gt;That&amp;rsquo;s not a principled definition, that&amp;rsquo;s a hack.&lt;/h2&gt;
 &lt;p&gt;More formally, for any &lt;span class="math"&gt;\(n \in \mb{Z}\)&lt;/span&gt;, we let &lt;span class="math"&gt;\({H_n}_\emptyset\)&lt;/span&gt; be the composition &lt;span class="math"&gt;\(H_nFI\)&lt;/span&gt;, where &lt;span class="math"&gt;\(F: \mf{Top}_* \lra \mf{Top}\)&lt;/span&gt; is the forgetful functor and &lt;span class="math"&gt;\(I\)&lt;/span&gt; is its left adjoint which sends &lt;span class="math"&gt;\(X\)&lt;/span&gt; to &lt;span class="math"&gt;\(X \sqcup \{z\}\)&lt;/span&gt;. Note that &lt;span class="math"&gt;\(I\)&lt;/span&gt; preserves coproducts and sends products to smash products, so this gives us a way to relate traditional and reduced homology.&lt;/p&gt;
 &lt;h2&gt;If traditional homology is just a derivative of reduced homology, why does it feature in Poincaré Duality? That formula doesn&amp;rsquo;t work if you plug in reduced homology groups.&lt;/h2&gt;
-&lt;p&gt;But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2). And since traditional homology is a special case of relative homology, we obtain the traditional Poincaré duality when &lt;span class="math"&gt;\(L \simeq M\)&lt;/span&gt; and &lt;span class="math"&gt;\(K = \emptyset\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2, see Theorem 8.3 of &lt;span style="font-variant:small-caps;"&gt;Bredon 1993&lt;/span&gt;). And since traditional homology is a special case of relative homology, we obtain traditional Poincaré duality when &lt;span class="math"&gt;\(L \simeq M\)&lt;/span&gt; and &lt;span class="math"&gt;\(K = \emptyset\)&lt;/span&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Theorem 2 (Poincaré):&lt;/strong&gt; Let &lt;span class="math"&gt;\(M\)&lt;/span&gt; be an &lt;span class="math"&gt;\(n\)&lt;/span&gt;-dimensional oriented manifold and let &lt;span class="math"&gt;\(K \sbeq L \sbeq M\)&lt;/span&gt; be compact subspaces of &lt;span class="math"&gt;\(M\)&lt;/span&gt;. Then for every &lt;span class="math"&gt;\(i\)&lt;/span&gt;,
-&lt;div class="math"&gt;$$H_i(M\setminus K, M\setminus L) \simeq H^{n-1}(L,K).$$&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 2 (Poincaré&amp;ndash;Alexander&amp;ndash;Lefschetz):&lt;/strong&gt; Let &lt;span class="math"&gt;\(M\)&lt;/span&gt; be an &lt;span class="math"&gt;\(n\)&lt;/span&gt;-dimensional oriented manifold and let &lt;span class="math"&gt;\(K \sbeq L \sbeq M\)&lt;/span&gt; be compact subspaces of &lt;span class="math"&gt;\(M\)&lt;/span&gt;. Then for every &lt;span class="math"&gt;\(i\)&lt;/span&gt;,
+&lt;div class="math"&gt;$$H_i(M\setminus K, M\setminus L) \simeq H^{n-i}(L,K).$$&lt;/div&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;What about the Künneth theorem?&lt;/h2&gt;
-&lt;p&gt;Here too there exists a more general, relative theorem (Theorem 3) which reduces to the traditional Künneth theorem when &lt;span class="math"&gt;\(A = B = \emptyset\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Here too there exists a more general, relative theorem (Theorem 3, see p276 of &lt;span style="font-variant:small-caps;"&gt;Hatcher 2002&lt;/span&gt;) which reduces to the traditional Künneth theorem when &lt;span class="math"&gt;\(A = B = \emptyset\)&lt;/span&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Theorem 3 (Künneth):&lt;/strong&gt; Let &lt;span class="math"&gt;\(X\)&lt;/span&gt; and &lt;span class="math"&gt;\(Y\)&lt;/span&gt; be two topological spaces. Then for each &lt;span class="math"&gt;\(n\)&lt;/span&gt;, there exists a short exact sequence
-&lt;div class="math"&gt;$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$&lt;/div&gt;
+&lt;div class="math"&gt;$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i \Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$&lt;/div&gt;
 which splits.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;There also exists a reduced Künneth theorem, which we obtain when &lt;span class="math"&gt;\(A = \{x\}\)&lt;/span&gt; and &lt;span class="math"&gt;\(B = \{y\}\)&lt;/span&gt; (Corrolary 3.1).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Corrolary 3.1:&lt;/strong&gt; Let &lt;span class="math"&gt;\(X\)&lt;/span&gt; and &lt;span class="math"&gt;\(Y\)&lt;/span&gt; be two non-empty topological spaces. Then for each &lt;span class="math"&gt;\(n\)&lt;/span&gt;, there exists a short exact sequence
-&lt;div class="math"&gt;$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$&lt;/div&gt;
+&lt;div class="math"&gt;$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i \Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$&lt;/div&gt;
 which splits.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We can also see the traditional Künneth theorem as an implication of this reduced Künneth theorem, given that the traditional homology of &lt;span class="math"&gt;\(X\)&lt;/span&gt; and &lt;span class="math"&gt;\(Y\)&lt;/span&gt; corresponds to the reduced homology of &lt;span class="math"&gt;\(X \sqcup \{z\}\)&lt;/span&gt; and &lt;span class="math"&gt;\(Y \sqcup \{z\}\)&lt;/span&gt;, and that &lt;span class="math"&gt;\((X \sqcup \{z\}) \wedge_z (Y \sqcup \{z\}) \simeq (X \times Y) \sqcup \{z\}\)&lt;/span&gt;.&lt;/p&gt;
 &lt;h2&gt;The &lt;span class="math"&gt;\(i\)&lt;/span&gt;&lt;sup&gt;th&lt;/sup&gt; traditional homology group of the &lt;span class="math"&gt;\(n\)&lt;/span&gt;-fold torus &lt;span class="math"&gt;\(T^n\)&lt;/span&gt; is &lt;span class="math"&gt;\(\mb{Z}^{\binom{i}{n}}\)&lt;/span&gt;. With reduced homology, this pattern breaks down for &lt;span class="math"&gt;\(i=0\)&lt;/span&gt;. Isn&amp;rsquo;t this an example where traditional homology produces more natural results?&lt;/h2&gt;
 &lt;p&gt;That the ranks of the homology groups of a torus are binomial coefficients is a direct combinatorial consequence of repeated application of the Künneth theorem to multiplication of &lt;span class="math"&gt;\(S^1\)&lt;/span&gt; with itself. One can obtain a similar result with the reduced Künneth Theorem for a whole range of spaces. The reduced equivalent of multiplying &lt;span class="math"&gt;\(S^1\)&lt;/span&gt; with itself is taking the smash product of &lt;span class="math"&gt;\(S^0 \vee_x S^1 \simeq S^1 \sqcup \{z\}\)&lt;/span&gt; with itself in &lt;span class="math"&gt;\(z\)&lt;/span&gt;, producing &lt;span class="math"&gt;\(S^0 \vee_x T^n \simeq T^n \sqcup \{z\}\)&lt;/span&gt;. But one can also take the smash product in other points to obtain different spaces with the same homology. A consistent choice for &lt;span class="math"&gt;\(x\)&lt;/span&gt; produces the wedge sum &lt;span class="math"&gt;\(\bigvee_{i}\bigvee_{\binom{i}{n}}S^i\)&lt;/span&gt;. Alternating choices for &lt;span class="math"&gt;\(z\)&lt;/span&gt; and &lt;span class="math"&gt;\(x\)&lt;/span&gt; produce various halfway structures, all with homology groups whose ranks correspond to binomial coefficients.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
-&lt;p&gt;&lt;span style="font-variant:small-caps;"&gt;Hatcher, Allen Edward, 2002.&lt;/span&gt; &lt;a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html"&gt;Algebraic Topology.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-variant:small-caps;"&gt;Bredon, Glen Eugene, 1993.&lt;/span&gt; Topology and Geometry. Graduate Texts in Mathematics 139. Springer Verlag, New York.&lt;br&gt;
+&lt;span style="font-variant:small-caps;"&gt;Hatcher, Allen Edward, 2002.&lt;/span&gt; &lt;a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html"&gt;Algebraic Topology.&lt;/a&gt;&lt;/p&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
