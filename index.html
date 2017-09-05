@@ -29,23 +29,23 @@
     <meta name="msapplication-TileColor" content="#333">
 
 <meta name="author" content="Oliver Urs Lenz" />
-<meta name="description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} \DeclareMathOperator{\Tor}{Tor} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by …" />
+<meta name="description" content="Wait what but that’s what I learned in history class! Yes, this myth is depressingly common. Do you mean that while the Western Roman Empire fell, Byzantium — the Eastern Roman Empire — survived until 1453? There was no fall at all in 476. This term evokes images of Rome being …" />
 <meta name="keywords" content="">
 
 <meta property="og:site_name" content="Diaphonies"/>
-<meta property="og:title" content="Traditional homology is a special case of reduced homology"/>
-<meta property="og:description" content="$$ \newcommand{\mc}[1]{\mathcal{#1}} \newcommand{\mb}[1]{\mathbb{#1}} \newcommand{\mf}[1]{\mathfrak{#1}} \newcommand{\fn}[1]{\footnote{#1}} \newcommand{\sbeq}{\subseteq} \newcommand{\lra}{\longrightarrow} \DeclareMathOperator{\Cont}{Cont} \DeclareMathOperator{\Tor}{Tor} $$ Is this new mathematics? No. Just an argument over mathematical presentation, bringing together individual observations previously made by …"/>
+<meta property="og:title" content="Rome did not fall in 476"/>
+<meta property="og:description" content="Wait what but that’s what I learned in history class! Yes, this myth is depressingly common. Do you mean that while the Western Roman Empire fell, Byzantium — the Eastern Roman Empire — survived until 1453? There was no fall at all in 476. This term evokes images of Rome being …"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://diaphonies.com/0"/>
+<meta property="og:url" content="http://diaphonies.com/1"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2017-08-08 00:00:00+02:00"/>
+<meta property="article:published_time" content="2017-08-26 00:00:00+02:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="http://diaphonies.com/author/oliver-urs-lenz.html">
 <meta property="article:section" content="posts"/>
 <meta property="og:image" content="">
 
 
-  <title>Diaphonies &ndash; Traditional homology is a special case of reduced homology</title>
+  <title>Diaphonies &ndash; Rome did not fall in 476</title>
 
 </head>
 <body>
@@ -62,7 +62,7 @@
           <li><a  href="http://diaphonies.com/archive">archive</a></li>
           <li><a  href="http://diaphonies.com/about">About</a></li>
 
-          <li><a href="http://twitter.com/diaphonies_" target="_blank">Twitter</a></li>
+          <li><a class="twitter" href="http://twitter.com/diaphonies_" target="_blank">Twitter</a></li>
         </ul>
       </nav>
     </div>
@@ -71,204 +71,91 @@
   <main>
 <article class="single">
   <div class="neighbors">
+    <a class="btn float-left" href="http://diaphonies.com/0" title="Traditional homology is a special case of reduced homology">
+      <i class="fa fa-angle-left"></i>     Previous
+
+    </a>
   </div>
   <header>
-    <h1 id="0">Traditional homology is a special case of reduced homology</h1>
+    <h1 id="1">Rome did not fall in 476</h1>
     <p>
-          Posted on 8 August 2017
+          Published on 26 August 2017
 
 
     </p>
   </header>
 
   <div>
-    <div class="math">$$
-\newcommand{\mc}[1]{\mathcal{#1}}
-\newcommand{\mb}[1]{\mathbb{#1}}
-\newcommand{\mf}[1]{\mathfrak{#1}}
-\newcommand{\fn}[1]{\footnote{#1}}
-\newcommand{\sbeq}{\subseteq}
-\newcommand{\lra}{\longrightarrow}
-\DeclareMathOperator{\Cont}{Cont}
-\DeclareMathOperator{\Tor}{Tor}
-$$</div>
-<h2>Is this new mathematics?</h2>
-<p>No. Just an argument over mathematical presentation, bringing together individual observations previously made by e.g. <span style="font-variant:small-caps;">Hatcher 2002</span>.</p>
-<h2>What mathematical presentation?</h2>
-<p>It is standard practice to define &lsquo;reduced&rsquo; homology after and on the basis of &lsquo;traditional&rsquo; homology. But reduced homology is actually more fundamental, while traditional homology can be seen as secondary. Accordingly, I prefer to write <span class="math">\(H_i(X)\)</span> for the <span class="math">\(i\)</span><sup>th</sup> reduced homology group, and <span class="math">\(H_i(X)_{\emptyset}\)</span> for the <span class="math">\(i\)</span><sup>th</sup> traditional homology group of a topological space <span class="math">\(X\)</span>.</p>
-<h2>Traditional and reduced homology are almost identical.</h2>
-<p>Yes, for any non-empty space <span class="math">\(X\)</span>, the difference between traditional and reduced homology boils down to <span class="math">\(H_0(X)_{\emptyset} \simeq H_0(X) \times \mb{Z}\)</span>, so there&rsquo;s not that much at stake here.</p>
-<h2>What kind of homology are we talking about?</h2>
-<p>Singular homology. (The arguments for cohomology are analogous.)</p>
-<h2>In what way is reduced homology more fundamental?</h2>
-<p>Reduced homology has a more parsimonious interpretation, it has a more natural definition, and traditional homology can in turn be elegantly defined in terms of reduced homology.</p>
-<h2>A more parsimonious interpretation?</h2>
-<p>Reduced homology is a better measure of the number of 1-dimensional holes in a space.</p>
-<h2>The 0<sup>th</sup> traditional Betti number encodes the number of connected components of a space. So the 0<sup>th</sup> reduced Betti number encodes &ldquo;the number of connected components minus 1&rdquo;. How is that more parsimonious?</h2>
-<p>Isn&rsquo;t it unfortunate that with traditional homology, a contractible space, in particular a point &mdash; a simple space with no holes whatsoever &mdash; nonetheless has non-trivial homology in degree <span class="math">\(0\)</span>? Isn&rsquo;t it strange that whereas the <span class="math">\(n\)</span><sup>th</sup> Betti number generally represents the number of <span class="math">\(n+1\)</span>-dimensional &lsquo;holes&rsquo; in a structure, for <span class="math">\(n = 0\)</span>, it should be the number of connected components? With reduced homology, contractible spaces have trivial homology and the 0<sup>th</sup> Betti number actually encodes the number of 1-dimensional holes: the number of &lsquo;gaps&rsquo; between components.</p>
-<h2>How do you define the number of &lsquo;gaps&rsquo; between components? If a topological space <span class="math">\(X\)</span> has <span class="math">\(k\)</span> components, isn&rsquo;t every pair of components separated by a gap, for a total of <span class="math">\(k!/2\)</span> gaps if <span class="math">\(k \geq 2\)</span>? Whereas the 0<sup>th</sup> reduced Betty number is <span class="math">\(k - 1\)</span>?</h2>
-<p>For 1-dimensional holes, we need a 1-dimensional perspective. This we get by projecting the topological space onto a line, in which case we find exactly <span class="math">\(k-1\)</span> gaps between its components.</p>
-<h2>How can reduced homology be more fundamental if it assigns trivial homology both to contractible spaces and to the empty space?</h2>
-<p>The reduced homology of the empty space isn&rsquo;t generally discussed. But if you follow the definition, you find that its <span class="math">\(-1\)</span><sup>st</sup> reduced homology group is <span class="math">\(\mb{Z}\)</span>.</p>
-<h2>That just sounds wrong.</h2>
-<p>It is exactly what we want if homology encodes holes. The empty space has a hole of a unique, 0-dimensional kind: it is empty. In general, the prototypical space with a single <span class="math">\(n+1\)</span>-dimensional hole is the <span class="math">\(n\)</span>-sphere. The empty space is the <span class="math">\(-1\)</span>-sphere (Definition 1) and it has the reduced homology of a sphere (Figure 1).</p>
-<blockquote>
-<p><strong>Definition 1:</strong> Let <span class="math">\(n \geq -1\)</span> and let <span class="math">\(\left\|-\right\|\)</span> be the euclidean norm on <span class="math">\(\mathbb{R}^{n+1}\)</span>. The <em><span class="math">\(n\)</span>-sphere</em> is the topological subspace <span class="math">\(S^n = \{a \in \mathbb{R}^{n+1} | \left\|a\right\| = 1\}\)</span>. The <em><span class="math">\(n+1\)</span>-disk</em> is the topological subspace <span class="math">\(D_{n+1} = \{a \in \mathbb{R}^{n+1} | \left\|a\right\| \leq 1\}\)</span>.</p>
-</blockquote>
-<div class="math">\begin{array} {lccccccc}
-                &amp; H_{-1}    &amp; H_0           &amp; H_1       &amp; H_2       &amp; H_3       &amp; H_4       &amp; \dots\\
-S^{-1}  &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
-S^0         &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
-S^1         &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0             &amp; 0         &amp; \dots\\
-S^2         &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0             &amp; 0         &amp; \dots\\
-S^3         &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; 0         &amp; \dots\\
-S^4         &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; 0             &amp; \mb{Z}    &amp; \dots\\
-\dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots
-\end{array}</div>
-<p>
-<center><strong>Figure 1:</strong> The groups <span class="math">\(H_i(S^n)\)</span></center></p>
-<h2>Is defining this empty <span class="math">\(-1\)</span>-sphere in any way useful?</h2>
-<p>This is a bit tangential, but there exists an elegant proof that establishes the homology groups of the <span class="math">\(n\)</span>-sphere through induction on <span class="math">\(n\)</span>, starting at <span class="math">\(n = -1\)</span>. In other words, we can derive the homology of the spheres from the homology of the empty space. Without providing full details, the proof, as covered in <span style="font-variant:small-caps;">Hatcher 2002</span>, hinges on the following theorem:</p>
-<blockquote>
-<p><strong>Theorem 1:</strong> For any topological space <span class="math">\(X\)</span>, and any two subspaces <span class="math">\(A, B \sbeq X\)</span> such that <span class="math">\(A \cup B = X\)</span>, there exists a short exact sequence
-<div class="math">$$0 \lra A \cap B \lra A \oplus B \lra X \lra 0$$</div>
-</p>
-</blockquote>
-<p>It is possible to apply this to <span class="math">\(X = S^n\)</span>, for any <span class="math">\(n \geq 0\)</span>, by taking <span class="math">\(A\)</span> and <span class="math">\(B\)</span> to be two overlapping hemispheres of <span class="math">\(X\)</span> homeomorphic to the disk <span class="math">\(D_n\)</span>, such that <span class="math">\(A \cap B\)</span> is homeomorphic to <span class="math">\(S^{n-1}\)</span>:</p>
-<div class="math">$$0 \lra S^{n-1} \lra D_{n} \oplus D_{n} \lra S^n \lra 0$$</div>
-<p>The Meyer-Vietoris theorem applied to this short exact sequence gives us a long exact sequence of homology groups. Because disks are contractible, the terms <span class="math">\(H_i(D_n \oplus D_n)\)</span> are all trivial, hence <span class="math">\(H_{i+1}(S^{n+1})\)</span> and <span class="math">\(H_{i}(S^{n})\)</span> are isomorphic for all <span class="math">\(i\)</span> and all <span class="math">\(n \geq -1\)</span>. We can thus derive any homology group of any sphere through induction from the homology groups of <span class="math">\(S^{-1}\)</span>, the empty space: for any <span class="math">\(n \geq -1\)</span>, all homology groups of <span class="math">\(S^n\)</span> are trivial, except <span class="math">\(H_{n}(S^n)\)</span>, which is isomorphic to <span class="math">\(\mb{Z}\)</span>.</p>
-<p>With traditional homology, this derivation is arguably less elegant because then induction cannot start with the empty space and the term <span class="math">\(H_0(D_n \oplus D_n)\)</span> is non-trivial.</p>
-<h2>You said that reduced homology has a more elegant definition than traditional homology. How is this possible given that reduced singular homology is usually defined by taking the singular chain complex of a space <span class="math">\(X\)</span>, from the definition of traditional homology, and extending it with a special map <span class="math">\(\epsilon: C_0(X) \lra \mb{Z}\)</span>.</h2>
-<p>That construction is unnecessarily complicated. There is a more natural definition of reduced homology, and of <span class="math">\(\epsilon\)</span> in particular. We obtain <span class="math">\(\epsilon\)</span> automatically <em>as part of the chain complex</em> if we remove an arbitrary restriction from the definition of traditional singular homology. Just watch the definitions unfold:</p>
-<blockquote>
-<p><strong>Definition 2:</strong> For any <span class="math">\(n \geq -1\)</span>, the <em>standard <span class="math">\(n\)</span>-simplex <span class="math">\(\Delta_n\)</span></em> is the <span class="math">\(n\)</span>-simplex spanned by the standard basis <span class="math">\((e_0,e_1,\dots,e_n)\)</span> of <span class="math">\(\mathbb{R}^{n+1}\)</span>, i.e. the set
-<div class="math">$$\left\{(w_0,w_1,\dots,w_n) \in \mathbb{R}^{n+1} \Bigg| \sum_{0 \leq i \leq n}w_i = 1, w_0,w_1,\dots,w_n \geq 0\right\}.$$</div>
-A <em>singular <span class="math">\(n\)</span>-simplex</em> <span class="math">\(\sigma\)</span> in a topological space <span class="math">\(X\)</span> is a continuous map <span class="math">\(\Delta_n \longrightarrow X\)</span>. For any <span class="math">\(n \geq i \geq -1\)</span>, let <span class="math">\(\iota_i: \Delta_n \lra \Delta_{n+1}\)</span> be the linear map which sends any <span class="math">\(e_j\)</span> to <span class="math">\(e_j\)</span> if <span class="math">\(j \leq i\)</span> and to <span class="math">\(e_{j+1}\)</span> if <span class="math">\(j &lt; i\)</span>.</p>
-</blockquote>
-<!-- -->
-
-<blockquote>
-<p><strong>Definition 3:</strong> Define <span class="math">\(C: \mf{Top} \lra \mf{Ch_{\bullet}(Ab)}\)</span> by letting <span class="math">\(C_n: \mathfrak{Top} \lra \mathfrak{Ab}\)</span> be the composition of the functor <span class="math">\(\Cont(\Delta^n,-): \mf{Top} \lra \mf{Set}\)</span> which sends a topological space <span class="math">\(X\)</span> to the set of all singular <span class="math">\(n\)</span>-simplices in <span class="math">\(X\)</span> and the free functor <span class="math">\(\mf{Set} \lra \mf{Ab}\)</span>, and by having <span class="math">\(d_n: C_n(X) \lra C_{n-1}(X)\)</span> send any generating <span class="math">\(n\)</span>-simplex <span class="math">\(\sigma\)</span> of <span class="math">\(C_n(X)\)</span> to <span class="math">\(\sum (-1)^{i} \sigma \circ \iota_i\)</span>,  for every <span class="math">\(n \in \mathbb{Z}\)</span>.
-Then for every <span class="math">\(n \in \mb{Z}\)</span>, the <span class="math">\(n\)</span><sup>th</sup> homology functor
-<div class="math">$$H_n: \mf{Top} \lra \mf{Ab}$$</div>
-is the composition of <span class="math">\(C\)</span> with the homology functor <span class="math">\(H_n: \mf{Ch_{\bullet}(Ab)} \lra \mf{Ab}\)</span>.</p>
-</blockquote>
-<h2>Isn&rsquo;t this just the definition of traditional singular homology?</h2>
-<p>If we wanted to obtain traditional homology, we would have to restrict <span class="math">\(n \geq 0\)</span> in Definition 2. But there is no intrinsic reason for this restriction, as the case <span class="math">\(n = -1\)</span> is still well-defined: <span class="math">\(\Delta^{-1} = \emptyset\)</span>, therefore <span class="math">\(\Cont(\Delta^{-1},X)\)</span> is a singleton for any space <span class="math">\(X\)</span>, and consequently, <span class="math">\(C_{-1}(X) \simeq \mb{Z}\)</span> and <span class="math">\(d_0 = \epsilon\)</span> maps every <span class="math">\(0\)</span>-simplex in <span class="math">\(C_{0}(X)\)</span> onto the unique <span class="math">\(-1\)</span>-simplex generating <span class="math">\(C_{-1}(X)\)</span>. In contrast, the restriction <span class="math">\(n \geq -1\)</span> is really necessary, because  <span class="math">\(\mathbb{R}^{n+1}\)</span> is not defined for <span class="math">\(n &lt; -1\)</span>.</p>
-<p>Also, note in particular that since <span class="math">\(C_0(\emptyset) = 0\)</span>, we get <span class="math">\(H_0(\emptyset) \simeq \mb{Z}\)</span>.</p>
-<h2>Defining homology in degree <span class="math">\(-1\)</span> looks everything but natural.</h2>
-<p>That is an esthetic argument, purely due to the choice of index. The standard <span class="math">\(n\)</span>-simplex is defined as a subset of <span class="math">\(\mb{R}^{n+1}\)</span>, and so might just as well have been called the <span class="math">\(n+1\)</span>-simplex. In essence, <span class="math">\(n = -1\)</span> is the true &lsquo;zero-case&rsquo; of (co)homology.</p>
-<h2>Do we really want to postulate an empty <span class="math">\(-1\)</span>-simplex?</h2>
-<p>Besides being a building block in the definition of reduced homology, the <span class="math">\(-1\)</span>-simplex is useful in other ways. It allows one to observe that every subset of vertices of a simplex spans a subsimplex (a face), and that, in a simplicial complex, the intersection of any two simplices is a face of both. More generally, the number of <span class="math">\(i\)</span>-faces of an <span class="math">\(n\)</span>-simplex is <span class="math">\(\binom{i+1}{n+1}\)</span>, but the resulting Pascal&rsquo;s Triangle is not complete without the unique <span class="math">\(-1\)</span>-dimensional face (Figure 2).</p>
-<div class="math">\begin{array} {lcccccc}
-                        &amp; i=-1              &amp; i=0               &amp; i=1           &amp;i=2                &amp; i=3           &amp; i=4       &amp; \dots\\
-n=-1    &amp; 1                     &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
-n=0         &amp; 1                     &amp; 1                 &amp; 0                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
-n\simeq1        &amp; 1                     &amp; 2                 &amp; 1                 &amp; 0                 &amp; 0                 &amp; 0         &amp; \dots\\
-n\simeq2        &amp; 1                     &amp; 3                 &amp; 3                 &amp; 1                 &amp; 0                 &amp; 0         &amp; \dots\\
-n\simeq3        &amp; 1                     &amp; 4                 &amp; 6                 &amp; 4                 &amp; 1                 &amp; 0         &amp; \dots\\
-n\simeq4        &amp; 1                     &amp; 5                 &amp; 10                &amp; 10                &amp; 5                 &amp; 1         &amp; \dots\\
-\dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots   &amp; \dots
-\end{array}</div>
-<p>
-<center><strong>Figure 2:</strong> The number of <span class="math">\(i\)</span>-faces of an <span class="math">\(n\)</span>-simplex</center></p>
-<h2>So how precisely is traditional homology a special case of reduced homology?</h2>
-<p>It is possible to give at least two equivalent definitions. First, traditional homology can be subsumed under the more general concept of <em>relative homology</em> (Definition 4).</p>
-<blockquote>
-<p><strong>Definition 4:</strong> Let <span class="math">\(X\)</span> be a topological space, and <span class="math">\(A \sbeq X\)</span> a subspace. Then for any <span class="math">\(n \in \mb{Z}\)</span>, the <em>relative homology group</em> <span class="math">\(H_n(X,A)\)</span> is the <span class="math">\(n\)</span><sup>th</sup> homology group of the chain complex <span class="math">\(C(X)/C(A)\)</span>.</p>
-</blockquote>
-<p>This definition of relative homology is equally valid for reduced and traditional homology, and this choice does not affect the outcome: <span class="math">\(H_n(X,A)\)</span> and <span class="math">\(H_n(X,A)_{\emptyset}\)</span> are isomorphic for all <span class="math">\(n\)</span>. Moreover, both reduced and traditional homology can be derived back from relative homology. For <span class="math">\(x \in X\)</span> any point, <span class="math">\(H_n(X,\{x\})\)</span> is the reduced homology group <span class="math">\(H_n(X)\)</span>, while <span class="math">\(H_n(X,\emptyset)\)</span> is the traditional homology group <span class="math">\(H_n(X)_{\emptyset}\)</span> (hence this choice of notation). In other words, traditional homology is reduced homology relativised to the empty space.</p>
-<h2>One could also define reduced homology as traditional homology relativised to a point.</h2>
-<p>Except that the choice of a point of <span class="math">\(X\)</span> makes this arguably less elegant, and it cannot be done for the empty space.</p>
-<h2>What is the second equivalent definition?</h2>
-<p>The traditional homology of a space <span class="math">\(X\)</span> corresponds to the reduced homology of <span class="math">\(X \sqcup \{z\}\)</span>, where {z} is a singleton.</p>
-<h2>That&rsquo;s not a principled definition, that&rsquo;s a hack.</h2>
-<p>More formally, for any <span class="math">\(n \in \mb{Z}\)</span>, we let <span class="math">\({H_n}_\emptyset\)</span> be the composition <span class="math">\(H_nFI\)</span>, where <span class="math">\(F: \mf{Top}_* \lra \mf{Top}\)</span> is the forgetful functor and <span class="math">\(I\)</span> is its left adjoint which sends <span class="math">\(X\)</span> to <span class="math">\(X \sqcup \{z\}\)</span>. Note that <span class="math">\(I\)</span> preserves coproducts and sends products to smash products, so this gives us a way to relate traditional and reduced homology.</p>
-<h2>If traditional homology is just a derivative of reduced homology, why does it feature in Poincaré Duality? That formula doesn&rsquo;t work if you plug in reduced homology groups.</h2>
-<p>But there is a more general Poincaré duality theorem defined in terms of relative homology (Theorem 2, see Theorem 8.3 of <span style="font-variant:small-caps;">Bredon 1993</span>). And since traditional homology is a special case of relative homology, we obtain traditional Poincaré duality when <span class="math">\(L \simeq M\)</span> and <span class="math">\(K = \emptyset\)</span>.</p>
-<blockquote>
-<p><strong>Theorem 2 (Poincaré&ndash;Alexander&ndash;Lefschetz):</strong> Let <span class="math">\(M\)</span> be an <span class="math">\(n\)</span>-dimensional oriented manifold and let <span class="math">\(K \sbeq L \sbeq M\)</span> be compact subspaces of <span class="math">\(M\)</span>. Then for every <span class="math">\(i\)</span>,
-<div class="math">$$H_i(M\setminus K, M\setminus L) \simeq H^{n-i}(L,K).$$</div>
-</p>
-</blockquote>
-<h2>What about the Künneth theorem?</h2>
-<p>Here too there exists a more general, relative theorem (Theorem 3, see p276 of <span style="font-variant:small-caps;">Hatcher 2002</span>) which reduces to the traditional Künneth theorem when <span class="math">\(A = B = \emptyset\)</span>.</p>
-<blockquote>
-<p><strong>Theorem 3 (Künneth):</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
-<div class="math">$$0 \lra \bigoplus_i H_i(X,A) \otimes H_{n-1}(Y,B) \lra H_n(X \times Y,(A \times Y) \cup (B \times X)) \lra \bigoplus_i \Tor(H_i(X,A), H_{n-i-1}(Y,B)) \lra 0$$</div>
-which splits.</p>
-</blockquote>
-<p>There also exists a reduced Künneth theorem, which we obtain when <span class="math">\(A = \{x\}\)</span> and <span class="math">\(B = \{y\}\)</span> (Corrolary 3.1).</p>
-<blockquote>
-<p><strong>Corrolary 3.1:</strong> Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> be two non-empty topological spaces. Then for each <span class="math">\(n\)</span>, there exists a short exact sequence
-<div class="math">$$0 \lra \bigoplus_i H_i(X) \otimes H_{n-1}(Y) \lra H_n(X \wedge Y) \lra \bigoplus_i \Tor(H_i(X), H_{n-i-1}(Y)) \lra 0$$</div>
-which splits.</p>
-</blockquote>
-<p>We can also see the traditional Künneth theorem as an implication of this reduced Künneth theorem, given that the traditional homology of <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> corresponds to the reduced homology of <span class="math">\(X \sqcup \{z\}\)</span> and <span class="math">\(Y \sqcup \{z\}\)</span>, and that <span class="math">\((X \sqcup \{z\}) \wedge_z (Y \sqcup \{z\}) \simeq (X \times Y) \sqcup \{z\}\)</span>.</p>
-<h2>The <span class="math">\(i\)</span><sup>th</sup> traditional homology group of the <span class="math">\(n\)</span>-fold torus <span class="math">\(T^n\)</span> is <span class="math">\(\mb{Z}^{\binom{i}{n}}\)</span>. With reduced homology, this pattern breaks down for <span class="math">\(i=0\)</span>. Isn&rsquo;t this an example where traditional homology produces more natural results?</h2>
-<p>That the ranks of the homology groups of a torus are binomial coefficients is a direct combinatorial consequence of repeated application of the Künneth theorem to multiplication of <span class="math">\(S^1\)</span> with itself. One can obtain a similar result with the reduced Künneth Theorem for a whole range of spaces. The reduced equivalent of multiplying <span class="math">\(S^1\)</span> with itself is taking the smash product of <span class="math">\(S^0 \vee_x S^1 \simeq S^1 \sqcup \{z\}\)</span> with itself in <span class="math">\(z\)</span>, producing <span class="math">\(S^0 \vee_x T^n \simeq T^n \sqcup \{z\}\)</span>. But one can also take the smash product in other points to obtain different spaces with the same homology. A consistent choice for <span class="math">\(x\)</span> produces the wedge sum <span class="math">\(\bigvee_{i}\bigvee_{\binom{i}{n}}S^i\)</span>. Alternating choices for <span class="math">\(z\)</span> and <span class="math">\(x\)</span> produce various halfway structures, all with homology groups whose ranks correspond to binomial coefficients.</p>
-<h2>References</h2>
-<p><span style="font-variant:small-caps;">Bredon, Glen Eugene, 1993.</span> Topology and Geometry. Graduate Texts in Mathematics 139. Springer Verlag, New York.<br>
-<span style="font-variant:small-caps;">Hatcher, Allen Edward, 2002.</span> <a href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html">Algebraic Topology.</a></p>
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js','autobold.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script>
+    <h2>Wait what but that&rsquo;s what I learned in history class!</h2>
+<p>Yes, this myth is depressingly common.</p>
+<h2>Do you mean that while the Western Roman Empire fell, Byzantium &mdash; the Eastern Roman Empire &mdash; survived until 1453?</h2>
+<p>There was no <em>fall</em> at all in 476. This term evokes images of Rome being overrun by foreign troops, plundering the city. That did not happen in 476. It happened in 410 with the Visigoths and in 455 with the Vandals, but the Empire survived.</p>
+<h2>I guess we use the term <em>fall</em> because the event was so significant.</h2>
+<p>It wasn&rsquo;t. 476 did not mark a major break in the history of either Rome or Europe. It is possible to identify meaningful and symbolic dates in Roman history, and 476 is not among them, because it is both too early and too late.</p>
+<h2>But the Western Roman Empire ended in 476?</h2>
+<p>There was no &lsquo;Western Roman Empire&rsquo;, so it couldn&rsquo;t end in 476.</p>
+<h2>Well, <em>something</em> happened in 476.</h2>
+<p>Are you referring to the end of the separate line of Emperors in the West? In that case the date you&rsquo;re looking for is 480.</p>
+<h2>But isn&rsquo;t 476 when Romulus Augustulus was deposed as Emperor by Odoacer, who chose not to become Emperor himself but rather the first King of Italy?</h2>
+<p>It&rsquo;s an awfully symbolical ending, isn&rsquo;t it, the child Emperor Romulus August<em>ulus</em>, named after the founder of Rome and the first Emperor, only smaller? Never mind that Augustus wasn&rsquo;t the name of either Octavian or Romulus, but simply the Emperor-title, and that Romulus was only called August<em>ulus</em> in retrospect. The real problem is that he was not the only Emperor in the West in 476, and therefore not the last. In 474, Eastern Emperor Leo (I) appointed Julius Nepos as Emperor in the West. In 475, Julius Nepos was ousted in a coup by his <em>magister militium</em> Orestes, who proclaimed his own son Emperor &mdash; Romulus. But Julius Nepos was not eliminated, he fled to Dalmatia and he remained Emperor until his death in 480.</p>
+<h2>That doesn&rsquo;t really count! Just because Julius Nepos was still alive doesn&rsquo;t mean he was still Emperor.</h2>
+<p>Well, Julius Nepos controlled part of the Empire from Dalmatia. When Odoacer deposed Romulus, he tried to convince the Eastern Emperor Zeno that there was no need to appoint a replacement and that he should instead rule as sole Emperor, but Zeno pointed out that he didn&rsquo;t have to since there still was a second Emperor &mdash; Julius Nepos. Odoacer appears to have accepted this since he minted coins in the name of Julius Nepos.</p>
+<h2>While he may formally still have been Emperor, what actual power did Julius Nepos have?</h2>
+<p>That is a fair point, but determining &lsquo;the last Emperor&rsquo; is intrinsically a formal exercise, isn&rsquo;t it? Do you want to say that Romulus was the last Emperor, but not the very last? In fact, Julius had more actual power than Romulus. Julius Nepos directly controlled at least a part of the Empire for six whole years and his legitimacy was uncontested. His reign was undoubtedly weak, but it cannot possibly have been weaker than the reign of Romulus, who was eight years old and ruled for but a year, and for whom even <em>usurper</em> is too strong a term given that he was placed on the throne.</p>
+<h2>Fine. But is not the fall of the Western Roman Empire significant? The fact that Odoacer decided that the Empire had outlived its usefulness and instead founded the Kingdom of Italy? Is not this a sharp break marking the end of Antiquity and the beginning of the Middle Ages?</h2>
+<p>Except that there was no Western Roman Empire, no Kingdom of Italy until much, much later, and no sharp break.</p>
+<h2>How do you mean there was no Western Roman Empire? Was not the Empire divided by Diocletian in 286 between himself and Maxentian?</h2>
+<p>Diocletian appointed Maximian as co-emperor, which was not a new phenomenon. What was new was that Maximian was not his (adopted) son and that they each ruled a different part of the Empire. Regardless, Constantine (I) became sole Emperor again in 324.</p>
+<h2>But then Constantine divided the Empire over his sons in 337.</h2>
+<p>And then Constantius (II) became sole Emperor again in 350.</p>
+<h2>But then Valentinian (I) divided the Empire between himself and his brother in 375.</h2>
+<p>And then Theodosius (I) became sole Emperor in 393, after a fashion, although ruling with his sons as co-emperors.</p>
+<h2>And then these sons divided the Empire in 395.</h2>
+<p>And then Zeno became sole Emperor again in 480.</p>
+<h2>I see what you did there. One of these periods is longer than the others. Isn&rsquo;t it a bit fanciful to say that the Empire was re-united in 480?</h2>
+<p>That it took so long is mostly a testament to the weakness, especially in the West, of the fifth-century Emperors, who had their hands full with constant challenges to their power both from within and from without, and were often no more than puppet figures. The crucial point is that, even when it was ruled by two or more Emperors, the Empire was not divided into separate polities. Given its claim to universality, that would have been inconceivable. The terms &lsquo;Western Roman Empire&rsquo; and &lsquo;Eastern Roman Empire&rsquo; are anachronisms. The situation may be compared with the Triumvirates of the late Republic, when power was also geographically distributed over rival rulers. That the Empire remained essentially undivided is illustrated by the fact that Julius Nepos was appointed by Leo (I), that Odoacer deferred to Zeno after deposing Romulus, and that Maurice in the 590s stipulated in his will that his second son was to become Emperor in the West, even if that never materialised.</p>
+<h2>But effectively, after 480 the line of Emperors continued in the East &mdash; there were no more Emperors in Rome.</h2>
+<p>There is nothing to suggest that the Western line of Emperors was somehow the more `proper&rsquo; continuation of the line of Roman Emperors. You might argue that the city of Rome lies in the West, but Rome stopped being the capital after Diocletian chose to rule from Nicomedia and Constantine initiated the transformation of Nicomedia&rsquo;s neighbour Byzantium into <em>Nova Roma</em> (which soon became known as Constantinople). When there were separate Emperors in the West, they ruled first from Milan, and after 402 from Ravenna.</p>
+<h2>But didn&rsquo;t something fundamental change when the Empire lost Italy and Italy rejected the Empire as Odoacer founded the Kingdom of Italy?</h2>
+<p>Except that Italy did not stop being part of the Roman Empire in 480. While Odoacer may have initially been proclaimed <em>King of Italy</em> by his troops, he remained very much within the Empire and his official title was simply <em>Rex</em>. There was no <em>Kingdom of Italy</em>, no polity with that name. Odoacer governed a fluctuating area corresponding more or less to the territory controlled by the last Western Emperors, and did so in Julius Nepos&rsquo;s and Zeno&rsquo;s name. In effect, he was a junior Emperor without holding that title. Eventually, Zeno suspected Odoacer of plotting against him and invited the Ostrogoths to take his place, an arrangement that lasted until 535, when Emperor Justinianus (I) started a war and eventually defeated them. From 568 onward, large parts of Northern Italy came under the control of the Lombards. The Kings of the Ostrogoths and the Lombards were just that, not `Kings of Italy&rsquo;. Although <em>Rex Italiae</em> (<em>of the Italians</em>) was a term that slowly crept into use in the centuries that followed, Italy was only united in a single Kingdom in the nineteenth century.</p>
+<h2>Even if it wasn&rsquo;t identified as a separate Kingdom at the time, didn&rsquo;t Odoacer in effect create Italy?</h2>
+<p>I would dare venture that most ordinary Roman citizens of fifth and sixth century Italy would not have had the idea that they were no longer living in the Roman Empire. Odoacer was a &lsquo;barbarian&rsquo;, but he gained power not as the chieftain of a foreign people like the Franks in Gaul, but as a Roman general. His subjects were Romans. To say that he created Italy supposes that in the fifth century there was an Italian identity distinct enough from Roman identity to form the basis for a national state. That identity was only slowly formed through centuries of Lombard influence.</p>
+<h2>But the Roman Empire lost control over Italy in 476?</h2>
+<p>It eventually lost control over Italy, but this was a very drawn-out process. In the 660s, Italy was still sufficiently part of the Empire for Constantine Pogonatos to reign from Syracuse and visit Rome. The loss of Italy was a gradual process in terms of territory: Milan in 569, Ravenna effectively in 751, Rome arguably in 800 when the Pope switched allegiance to Charlemagne, Bari in 1071, Venice formally in 1084 and Bari again in 1158, after the Empire had briefly re-established authority there. It was also a gradual process in the sense that these lands slowly drifted out of the Empire&rsquo;s control, with Rome and Venice in particular acting independently long before these dates.</p>
+<h2>Even if nothing in particular happened in 476, isn&rsquo;t it useful as a symbolical breakpoint between Antiquity and the Middle Ages?</h2>
+<p>But this grand division into two monolithic worlds, two long periods of a thousand years or more &mdash; one &lsquo;light&rsquo;, one &lsquo;dark&rsquo; &mdash; is out-dated. 476 serves a narrative purpose, but the narrative is wrong. The two broad labels Antiquity and Middle Ages suggest a false inertia, as if 500 BC and 400 AD belong to one world and 500 and 1400 to another, with instantaneous change when the Roman Empire &lsquo;fell&rsquo; in 476. In reality, the changes started earlier and ended later. Furthermore, the transition from Antiquity to Middle Ages in the fifth century was arguably localised to those territories where Roman authority broke down, mainly Gaul and Brittania, if, following the traditional narrative, we characterise the onset of the Middle Ages by the loss of societal advancements like central government, urban economies, and knowledge of Greek literature and science. Large parts of Northern Europe never had these advancements in the first place, whereas those territories that remained part of the Roman Empire did not lose them &mdash; Antiquity ended later and very differently in Spain, Malta and North Africa, with the conquests of the Arabs in the seventh and eighth centuries.</p>
+<h2>What is the alternative?</h2>
+<p>To develop a different narrative based on shorter periods, and to frame these not as static eras but as chapters during which certain transformations took place.</p>
+<h2>How do we choose when these chapters start and end?</h2>
+<p>We look at moments of constitutional change, when the transformations that had already taken place were formalised or reached their natural end point, and when new transformations were initiated &mdash; in short, when the identity of the Roman Empire changed.</p>
+<h2>Isn&rsquo;t that rather arbitrary?</h2>
+<p>Yes, but less arbitrary than assigning importance to the year 476 for no good reason.</p>
+<h2>If 476 falls within a chapter of ongoing changes, what is the start of that chapter?</h2>
+<p>The reign of Diocletian, who became Emperor in 284. The first three hundred years of the Empire, from Octavian until Diocletian, are traditionally identified as the <em>Principate</em>, from the imperial title of <em>Princeps</em>. This is the time of the classical Roman Empire, when it achieved its greatest power and dominated Europe and the Mediterranean, but it also encompasses the crisis of the third century, when a series of soldier-emperors replaced each other in quick succession and a separate line of Emperors reigned from Trier, until Aurelian (270&ndash;275) restored order.</p>
+<p>During the Principate, the Empire gradually transformed from the colonial Empire of the city of Rome into an Empire where the regions had been Romanised and Rome itself all but ceased to occupy any special position. This process was confirmed by the bestowal of Roman citizenship upon all inhabitants of the Empire by Emperor Caracalla in 212, and symbolically concluded under Diocletian, when Rome ceased to be the imperial residence, Italy was subdivided into provinces like the rest of the Empire, and the category of senatorial provinces, governed by the Senate, was abolished. Instead, provinces were subdivided and placed under a higher tier of administrative unit, the <em>dioceses</em>, which were in turn placed under the authority of the praetorian prefects, each of which administered one quarter of the Empire. Aurelian and Diocletian also adopted the theretofore sporadic title of <em>Dominus</em>, lord, implying a more divine, monarchic conception of the Emperorship and symbolically confirming the move away from the Empire&rsquo;s republican origins realised by Diocletian&rsquo;s administrative reforms. The net result was that at the end of the Principate, power was at once administratively centralised under the Emperor and geographically decentralised away from Rome.</p>
+<p>The chapter that Diocletian initiated, and that 476 falls into, is identified as the <em>Dominate</em>, from the title Dominus. Diocletian introduced the practice of sharing the administration of the Empire among up to four Emperors with different levels of seniority. During this period, the North-Western part of the Empire was gradually taken over by Germanic peoples. At the same time, the centre of the Empire moved to the East, a process initiated by Diocletian, who chose to reign from Nicomedea. This geographical shift brought with it a linguistic shift from Latin to Greek. The Empire also transformed from a pagan into a Christian state. Under Diocletian and his junior co-ruler Galerius, Christians were still persecuted, but after Galerius succeeded Diocletian, he issued an edict in 311 granting Christians freedom of religion.</p>
+<h2>So when did the Dominate end?</h2>
+<p>This is harder to pinpoint. The geographic shift to the East was propelled by Constantine (I)&rsquo;s reconstitution of Byzantium as Nova Roma in 330 and confirmed by Constantius (II), who raised the status of Constantinople&rsquo;s Senate to the level of the Senate of Rome. The Christianisation of the Empire also proceeded quite rapidly. In 325, Constantine (I) convened the first council of Nicaea, regulating Christian practice. In 380, Theodosius (I), Gratian and Valerian (II) made Christianity the Empire&rsquo;s state religion. On 7 February 457, Leo (I) may have been the first Emperor to be crowned by the Patriarch of Constantinople. Leo may also have been the first Emperor to legislate in Greek. Roman law was famously compiled and reformed by Justinian (I, 527&ndash;565). This included the re-organisation of the governance of the provinces in the 530s, effectively abolishing the dioceses. The last praetorian prefect of Gaul governed until 536, the praetorian prefecture of Italy and Africa was split under Justinian and transformed into the Exarchates of Italy and Africa by Maurice in the 580s, and the last praetorian prefect of the East and the last magisters militium are known from around the reign of Herakleios (610&ndash;641). All these changes contributed to the reversal of the separation of military and civil administration under Diocletian and Constantine (I). Eventually, provinces were replaced by larger units called <em>themes</em>, which may have originated under Herakleios as military units, and which became administrative units over the course of the following centuries.</p>
+<p>At the same time, the old republican institutions eroded away. Gaps started to appear in the succession of consuls, and Anicius Faustus Albinus Basilius may have been the last regular non-Emperor Consul in 541. Irregularly, Herakleios and his father were proclaimed consuls in 608 by the Senate of Carthage, as part of their uprising against Phocas, the success of which acted as its legitimisation ex post facto. Consular dating disappeared from use along with the institute of Consul. Periods of fifteen years called indictions had been formally introduced under Diocletian, these were made compulsory by Justinian (I) in 537, together with imperial dating. In 603, the last known act of the Senate in Rome was passed and in 630 its building was transformed into a church.</p>
+<p>By 600, the Empire had reached a new equilibrium with the Germanic peoples, which had evolved to become the incipient feudal states of Medieval Europe, and in 628 Herakleios decisively defeated the Persians. The next centuries would be dominated by struggle with the Lombards, the Pope of Rome, the Bulgars and especially the Arabs, who started their expansion under Herakleios, as well as the monothelitic and iconoclastic schisms. Both the religious shift to Christianity and the linguistic shift to Greek were symbolically sealed in 629 when Herakleios replaced his long list of Latin titles with the simple phrase πιστὸς ἐν Χριστῷ βασιλεύς &mdash; <em>faithful in Christ Basileus</em>, and while Justinian (I) may have been a greater reformer, we may take this to have been the turning point that ended the Dominate.</p>
+<h2>How would we divide the rest of Roman history into chapters?</h2>
+<p>The two least controversial turning points are the start of the Republic, traditionally dated to 509BC, when the Reges were replaced with Consuls and the Senate gained more power, and the start of the Principate in 27BC, when Octavian received the titles of <em>Augustus</em> and <em>Princeps</em> and reformed the provinces, placing many under the direct authority of the Emperor, and the Senate and Consuls generally lost most of their power.</p>
+<p>Looking further, it is possible to divide the Republic into two phases. During the first phase, Rome became a regional power, gaining control over Central Italy, and Rome&rsquo;s patricians gradually had to cede more and more power to the plebeians with the creation of the office of the Plebeian Tribune in 494BC, plebicites, which in 449 became binding for all citizens, including patricians, the <em>Lex Publilia</em> in 339 which weakened the significance of <em>auctoritas patrum</em> over assemblies, and culminating in the <em>Lex Hortensia</em> in 287BC, which removed formal oversight of patricians over the plebeian council. During the second phase, Rome became a colonial Empire through the Punic, Macedonian and Gallic wars. Provinces were established, starting with Sicily in 241, legions were transformed into standing units in 107 and the army became generally more important. Power became concentrated in the hands of a few individuals, often generals, who enjoyed the support of the army and the masses: Marius, Sulla, Caesar and finally Octavian. The transition from Republic to Empire was in particular anticipated by the rule of Caesar, who was the first Roman ruler to mint coins with his effigy, and whose name was adopted by Octavian and his successors and is the source for the word for Emperor in a number of languages.</p>
+<p>A potential endpoint for the chapter that started with Herakleios is the reign of Leo (VI) (886&ndash;912), who published a comprehensive reform and translation into Greek of Justinian (I)&rsquo;s law codex, and issued a series of new reforms. In particular, Leo (VI) abolished the formal legal powers of the Senate of Constantinople (novels 47 and 78) and the duties of the consul (novel 94).</p>
+<p>Another possible turning point is the reign of Alexios (I) (1081&ndash;1118), who was the ancestor of all subsequent Emperors (as well as, allegedly, the Ottoman Sultans). In 1082, Alexios signed a treaty granting far-reaching trade privileges to Venice, and in 1095, he sent an emissary to the Pope of Rome to obtain support against the Seljuk Turks, sparking the First Crusade. He started the Komnenian restauration and during the following century, the Empire was able to fight back the Seljuk Turks, but Western involvement also led to the Fourth Crusade which in 1204 occupied Constantinople, and the continued presence of Western forces terminally weakened the Empire.</p>
+<p>Finally, if one wanted to further divide the time after Alexios (I), a natural breakpoint would be the reign of Michael VIII (1259&ndash;1282), who founded the Palaiologean dynasty &mdash; the Empire&rsquo;s last &mdash; and in 1261 restored a sense of unity by capturing Constantinople, only to set the scene for the Empire&rsquo;s terminal phase until 1453, in which it was ravaged by near-permanent civil war and was slowly absorbed by the Ottoman Empire.</p>
+<h2>Aha! But did the Empire really fall in 1453?</h2>
+<p>I understand that this is a tempting question &mdash; after all, Morea survived until 1460&ndash;1. But it is an undeniable fact that Constantinople really did fall quite dramatically in 1453.</p>
+<h2>But wasn&rsquo;t the Ottoman Empire really a continuation of the Empire? If the Empire was first Pagan and Latin and then Christian and Greek, can we not say that it then became Muslim and Turkish?</h2>
+<p>There is no reason in principle why the identity of the Empire couldn&rsquo;t again have changed, and in practice, the Ottoman Empire was a continuation of sorts of the Roman Empire. But this is wistful thinking: the Ottomans simply don&rsquo;t appear to have identified as Roman.</p>
   </div>
 
 
   <div class="neighbors">
+    <a class="btn float-left" href="http://diaphonies.com/0" title="Traditional homology is a special case of reduced homology">
+      <i class="fa fa-angle-left"></i>     Previous
+
+    </a>
   </div>
 
 </article>
